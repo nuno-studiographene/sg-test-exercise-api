@@ -6,7 +6,7 @@ const router = express.Router();
 
 // DATABASE
 let foods = [
-	// template for the foods
+	// template for the foods:
 	{
 		"title": "Quinoa Croquettas",
 		"description": "Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)",
