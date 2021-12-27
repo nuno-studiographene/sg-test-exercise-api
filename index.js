@@ -4,8 +4,7 @@ import bodyParser from 'body-parser';
 import foodsRoutes from './routes/foods.js';
 
 const app = express();
-// const PORT = process.env.port || 5000;
-const PORT = 'https://studiographene-exercise-api.herokuapp.com/';
+const PORT = process.env.port || 5000;
 
 app.use(bodyParser.json());
 
