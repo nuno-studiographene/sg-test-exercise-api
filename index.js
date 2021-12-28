@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import foodsRoutes from './routes/foods.js';
 
 const app = express();
-const PORT = process.env.port || 5000;
+const PORT = process.env.port || 80;
 
 app.use(bodyParser.json());
 
