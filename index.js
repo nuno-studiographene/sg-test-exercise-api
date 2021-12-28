@@ -2,9 +2,9 @@ import express from 'express';
 import bodyParser from 'body-parser';
 
 import foodsRoutes from './routes/foods.js';
-// ignore this line
+
 const app = express();
-const PORT = process.env.port || 80;
+const PORT = process.env.port || 5000;
 
 app.use(bodyParser.json());
 
